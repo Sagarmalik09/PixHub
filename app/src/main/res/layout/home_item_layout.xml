@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="#ffffff"
+    android:elevation="4dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/placeholder_imagevIew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/node" />
+
+    <ImageView
+        android:id="@+id/small_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="6dp"
+        android:layout_marginEnd="16dp"
+        android:tint="#858585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeholder_imagevIew"
+        app:srcCompat="@drawable/heart_thick" />
+
+    <ImageView
+        android:id="@+id/small_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeholder_imagevIew"
+        app:srcCompat="@drawable/plus_icon" />
+
+    <TextView
+        android:id="@+id/top_Tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Hitesh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/likes_count_textView"
+        app:layout_constraintStart_toEndOf="@+id/small_image"
+        app:layout_constraintTop_toBottomOf="@+id/placeholder_imagevIew" />
+
+    <TextView
+        android:id="@+id/likes_count_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="2.5k"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/small_like"
+        app:layout_constraintEnd_toStartOf="@+id/small_like" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123481648587",
+    "firebase_url": "https://snaphub-5c460.firebaseio.com",
+    "project_id": "snaphub-5c460",
+    "storage_bucket": "snaphub-5c460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123481648587:android:dff75fde9aa35f505e5a4e",
+        "android_client_info": {
+          "package_name": "com.example.snaphub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123481648587-e5scfl9d5q143rpnh2eel88ij198tqg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snaphub",
+            "certificate_hash": "646f04bf2d59ed13dd8d2caa201f14b69e621c16"
+          }
+        },
+        {
+          "client_id": "123481648587-2dl6qnmekeqtest73feg0dnp2semmlan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK71cI3T4kRaHahb3NeCipXC3LX4m9OyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123481648587-2dl6qnmekeqtest73feg0dnp2semmlan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

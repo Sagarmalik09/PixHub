@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/TRENDING_IMAGE"
+        android:layout_width="118dp"
+        android:layout_height="159dp"
+        android:scaleType="centerCrop"
+        android:foreground="@drawable/black_foreground_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twor" />
+
+    <TextView
+        android:id="@+id/TRENDING_TEXT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TRENDING_IMAGE"
+        app:layout_constraintEnd_toEndOf="@+id/TRENDING_IMAGE"
+        app:layout_constraintStart_toStartOf="@+id/TRENDING_IMAGE"
+        app:layout_constraintTop_toTopOf="@+id/TRENDING_IMAGE" />
+</androidx.constraintlayout.widget.ConstraintLayout>
