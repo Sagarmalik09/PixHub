@@ -8,22 +8,22 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123481648587:android:dff75fde9aa35f505e5a4e",
+        "mobilesdk_app_id": "1:123481648587:android:15ed3fc0116c175d5e5a4e",
         "android_client_info": {
-          "package_name": "com.example.snaphub"
+          "package_name": "com.sagar.snaphub"
         }
       },
       "oauth_client": [
         {
-          "client_id": "123481648587-e5scfl9d5q143rpnh2eel88ij198tqg0.apps.googleusercontent.com",
+          "client_id": "123481648587-5r7gh215mthqcjs07a8u7bkrdmqsvfit.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.snaphub",
+            "package_name": "com.sagar.snaphub",
             "certificate_hash": "646f04bf2d59ed13dd8d2caa201f14b69e621c16"
           }
         },
         {
-          "client_id": "123481648587-2dl6qnmekeqtest73feg0dnp2semmlan.apps.googleusercontent.com",
+          "client_id": "123481648587-59jsnsu0n581l4tnma5q6q91368rs7vr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],

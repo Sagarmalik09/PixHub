@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.snaphub">
+    package="sagar.snaphub">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission
         android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -20,36 +22,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ProfileFragment.NotificationsActivity.NotificationsActivity"
+            android:name="com.sagar.snaphub.ProfileFragment.NotificationsActivity.NotificationsActivity"
             android:exported="true" />
         <activity
-            android:name=".ProfileFragment.DownloadsActivity"
-            android:parentActivityName=".ProfileFragment.DownloadsActivity" />
-        <activity android:name=".EditProfile.EditProfileActivity" />
+            android:name="com.sagar.snaphub.ProfileFragment.DownloadsActivity"
+            android:parentActivityName="com.sagar.snaphub.ProfileFragment.DownloadsActivity" />
+        <activity android:name="com.sagar.snaphub.EditProfile.EditProfileActivity" />
         <activity
-            android:name=".TrendingFragment.GridActivity.GridActivity"
-            android:parentActivityName=".TrendingFragment.GridActivity.GridActivity"
+            android:name="com.sagar.snaphub.TrendingFragment.GridActivity.GridActivity"
+            android:parentActivityName="com.sagar.snaphub.TrendingFragment.GridActivity.GridActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".ShowAllImagesActivity.ShowAllActivity"
-            android:parentActivityName=".ShowAllImagesActivity.ShowAllActivity"
+            android:name="com.sagar.snaphub.ShowAllImagesActivity.ShowAllActivity"
+            android:parentActivityName="com.sagar.snaphub.ShowAllImagesActivity.ShowAllActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FullScreenActivity"
-            android:parentActivityName=".FullScreenActivity"
+            android:name="com.sagar.snaphub.FullScreenActivity"
+            android:parentActivityName="com.sagar.snaphub.FullScreenActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.sagar.snaphub.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RegistrationSystem.RegisterActivity"
+            android:name="com.sagar.snaphub.RegistrationSystem.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.sagar.snaphub.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
